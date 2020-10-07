@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: midnightblue;
+  color: white;
+  font-size: 20px;
+}
+
+#slider {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+#bottom {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#draw-grid {
+  display: grid;
+  border: 20px solid darkred;
+  border-radius: 15px;
+  margin: auto;
+  padding: auto;
+  background: lightgray;
+  width: 40em;
+  height: 40em;
+}
+
+.draw-box {
+  width: auto;
+  height: auto;
+  background-color: white;
+  border: 1px solid black;
+  margin: 0;
+}
