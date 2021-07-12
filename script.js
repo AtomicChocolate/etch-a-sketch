@@ -24,7 +24,7 @@ function createCanvas(size) {
 
 function reset() {
   let drawCells = document.querySelectorAll(".draw-box");
-  drawCells.forEach(element => {
+  drawCells.forEach((element) => {
     element.remove();
   });
   createCanvas(resizeSlider.value);
@@ -34,8 +34,8 @@ resetButton.addEventListener("click", (e) => {
   reset();
 });
 
-resizeSlider.addEventListener('input', (e) => {
-  let size = resizeSlider.value
+resizeSlider.addEventListener("input", (e) => {
+  let size = resizeSlider.value;
   resizeText.textContent = `Grid size: ${size}x${size}`;
   reset();
 });
